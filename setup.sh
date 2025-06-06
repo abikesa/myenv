@@ -1,4 +1,5 @@
-rm -rf myenv
+
+#!/bin/bash
 python3 -m venv myenv
 source myenv/bin/activate
-bash <(curl -s pip install -r https://raw.githubusercontent.com/abikesa/requirements/refs/heads/main/requirements.txt) 
+pip install -r https://raw.githubusercontent.com/abikesa/requirements/main/requirements.txt
